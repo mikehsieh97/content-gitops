@@ -1,6 +1,16 @@
-![la logo](https://user-images.githubusercontent.com/42839573/67322755-818e9400-f4df-11e9-97c1-388bf357353d.png)
+### Hands-On HitHub GitOps Lab
 
-### Linux Academy Course Repository
-### Hands-On GitOps
+* Create Docker hub secret under content-gitops repo => 
+`
+On GitHub, navigate to content-gitops repo.
+Click Settings.
+In the left sidebar, click Secrets.
+Click New secret.
+Type a name for your secret in the Name input box. => Use "DOCKERPW"
+Enter the Value for your secret. => my dockerhub password
+From the Repository access dropdown list, choose an access policy.
+Click Add secret.
+`
 
-This repository is a resource provided for Linux Academy students taking the hands-on GitIOps course.
+* Update content-gitops/.github/workflows/pythonapp.yml
+
